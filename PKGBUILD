@@ -30,11 +30,12 @@ makedepends=(
 	gcc
 	tcl
 	tk
+ 	sdl
 )
 source=("https://downloads.sourceforge.net/sourceforge/snowmix/$_appname-$pkgver.tar.gz"
 	"snowmix.sh")
 sha256sums=('e72d3fdab4b4c03b52787b8641fd6399b3a0a0c8976bf019a959b99f0f0a459d'
-            '5ea9ef7dce105873fcd8bd838d7fe46fa82d8a5b9a5404cc779f6c5ac9ca1483')
+            '03bfb26882ceaaa69a6c72312bed96a2e21305cb7621bf843d0c1430740971ac')
 
 build() {
 	cd $_appname-$pkgver
